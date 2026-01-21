@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "itemutils:block/item_extractor_top",
+    "side": "itemutils:block/item_extractor"
+  }
+}

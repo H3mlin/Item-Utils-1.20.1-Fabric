@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "itemutils",
+	"version": "${version}",
+	"name": "CC: Item Utils",
+	"description": "A mod that adds a few nice item utilities in CC fashion",
+	"authors": [
+		"H3mlin"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/itemutils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.h3mlin.itemutils.CCItemUtils"
+		],
+        "client": [
+          "com.h3mlin.itemutils.CCItemUtilsClient"
+        ],
+		"fabric-datagen": [
+			"com.h3mlin.itemutils.CCItemUtilsDataGenerator"
+		]
+	},
+	"mixins": [
+		"itemutils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+        "computercraft": "*"
+	}
+}

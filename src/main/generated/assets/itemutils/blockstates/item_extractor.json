@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "itemutils:block/item_extractor"
+    }
+  }
+}
